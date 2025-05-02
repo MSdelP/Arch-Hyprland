@@ -1,8 +1,28 @@
 # Guía de Instalación de Arch Linux + Hyprland
 
 Este README detalla el proceso paso a paso para instalar Arch Linux, configurar el entorno de red, entorno gráfico GNOME e instalar el gestor de ventanas Hyprland.
-
+https://rufus.ie/es/
 ---
+
+🧊 Montar Imagen ISO en USB (con Rufus)
+Antes de comenzar con la instalación de Arch Linux, necesitas crear un USB booteable con la imagen .iso.
+
+Descarga Rufus desde su sitio oficial.
+
+
+Inserta tu memoria USB.
+
+Abre Rufus y selecciona:
+
+Dispositivo: tu unidad USB.
+
+Selección de arranque: selecciona la imagen archlinux-x.y.z-x86_64.iso.
+
+Esquema de partición: GPT para sistemas UEFI, o MBR para BIOS.
+
+Sistema de archivos: FAT32.
+
+Haz clic en Empezar y espera a que finalice el proceso.
 
 ## 📥 Comprobación del ISO
 Descargar de https://archlinux.org/download/
