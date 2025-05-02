@@ -132,6 +132,7 @@ cd ~/Desktop/tu_usuario/repos
 git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin
 makepkg -si
+
 🧱 Instalación de BlackArch (opcional)
 
 cd ~/Desktop/tu_usuario/repos
@@ -159,6 +160,7 @@ git clone https://github.com/JaKooLit/Arch-Hyprland.git
 cd Arch-Hyprland
 chmod +x install.sh
 ./install.sh
+
 🎉 ¡ARCH LINUX INSTALADO CON ÉXITO! 🎉
 
 Para una actualizacion completa del sistema y todos los programas instalados
