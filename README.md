@@ -127,14 +127,14 @@ systemctl enable wpa_supplicant.service
 🧰 Instalación de Paru (AUR Helper)
 
 pacman -Syu git
-mkdir -p ~/Desktop/barbagorda/repos
-cd ~/Desktop/barbagorda/repos
+mkdir -p ~/Desktop/tu_usuario/repos
+cd ~/Desktop/tu_usuario/repos
 git clone https://aur.archlinux.org/paru-bin.git
 cd paru-bin
 makepkg -si
 🧱 Instalación de BlackArch (opcional)
 
-cd ~/Desktop/barbagorda/repos
+cd ~/Desktop/tu_usuario/repos
 mkdir blackarch && cd blackarch
 curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
@@ -145,14 +145,13 @@ sudo su
 pacman -S impacket
 
 🖼️ Instalación de Entorno Gráfico GNOME
-bash
-Copiar
-Editar
+
 pacman -S xorg xorg-server
 pacman -S gnome
 systemctl start gdm.service
 systemctl enable gdm.service
 pacman -S gtkmm
+
 🌌 Instalación de Hyprland
 
 # Hyprland con configuración personalizada
@@ -161,3 +160,7 @@ cd Arch-Hyprland
 chmod +x install.sh
 ./install.sh
 🎉 ¡ARCH LINUX INSTALADO CON ÉXITO! 🎉
+
+Para una actualizacion completa del sistema y todos los programas instalados
+
+sudo pacman -Syu
