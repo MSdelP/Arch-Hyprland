@@ -5,6 +5,7 @@ Este README detalla el proceso paso a paso para instalar Arch Linux, configurar 
 ---
 
 ## 📥 Comprobación del ISO
+Descargar de https://archlinux.org/download/
 
 ```bash
 # Verificar hash del archivo .iso
