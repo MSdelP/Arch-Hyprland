@@ -96,9 +96,9 @@ grub-mkconfig -o /boot/grub/grub.cfg
 pacman -S dhcpcd netctl sudo vim nano
 passwd
 useradd -m tu_usuario
-passwd barbagorda
+passwd tu_contraseña
 usermod -aG wheel tu_usuario
-groups barbagorda
+groups tu_usuario
 bash
 Copiar
 Editar
