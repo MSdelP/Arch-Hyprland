@@ -99,9 +99,7 @@ useradd -m tu_usuario
 passwd tu_contraseña
 usermod -aG wheel tu_usuario
 groups tu_usuario
-bash
-Copiar
-Editar
+
 nano /etc/sudoers
 # Descomentar la línea: %wheel ALL=(ALL:ALL) ALL
 
